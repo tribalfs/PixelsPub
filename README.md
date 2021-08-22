@@ -4,18 +4,18 @@ Pixels needs **WRITE_SECURE_SETTINGS** permission in order to work.
 ----------------------
 ### TLDR
 
- * Run `adb shell pm grant com.tribalfs.pxl android.permission.WRITE_SECURE_SETTINGS`
+ * Run `adb shell pm grant com.tribalfs.pixels android.permission.WRITE_SECURE_SETTINGS`
 
 ----------------------
 
 Alternative methods:
 
 For **rooted** devices without using a PC:
-(1) Install a terminal emulator app from play store (e.g. [Termux](https://play.google.com/store/apps/details?id=com.termux)), grant root permission and run the following command: `su -c pm grant com.tribalfs.pxl android.permission.WRITE_SECURE_SETTINGS`.
+(1) Install a terminal emulator app from play store (e.g. [Termux](https://play.google.com/store/apps/details?id=com.termux)), grant root permission and run the following command: `su -c pm grant com.tribalfs.pixels android.permission.WRITE_SECURE_SETTINGS`.
 or (2) Install this [mini-app](https://github.com/tribalfs/gmhWriteSecureSettings/releases), grant root permission and run.
 
 For **non-rooted** devices without using a PC:
-(1) Install [LADB Free](https://play.google.com/store/apps/details?id=com.draco.ladb.free&hl=en&gl=US)/[LADB Paid](https://play.google.com/store/apps/details?id=com.draco.ladb) from play store. Follow LADB setup instructions. Once LADB setup is done, execute `pm grant com.tribalfs.pxl android.permission.WRITE_SECURE_SETTINGS`
+(1) Install [LADB Free](https://play.google.com/store/apps/details?id=com.draco.ladb.free&hl=en&gl=US)/[LADB Paid](https://play.google.com/store/apps/details?id=com.draco.ladb) from play store. Follow LADB setup instructions. Once LADB setup is done, execute `pm grant com.tribalfs.pixels android.permission.WRITE_SECURE_SETTINGS`
 
 ----------------------
 
@@ -102,7 +102,7 @@ Procedures to grant Galaxy Max Hz App WRITE_SECURE_SETTINGS permission using ADB
 
  * Enter the following to the CMD window, followed by an enter:
 
- ```adb shell pm grant com.tribalfs.pxl android.permission.WRITE_SECURE_SETTINGS```
+ ```adb shell pm grant com.tribalfs.pixels android.permission.WRITE_SECURE_SETTINGS```
 
  **Note that it's ```adb shell pm grant com.tribalfs.n20umaxhz android.permission.WRITE_SECURE_SETTINGS``` if you are using the app version 5.40 or lower.**
 
