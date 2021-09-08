@@ -1,5 +1,4 @@
-# Pixels
-Install from [Google Play Store](https://play.google.com/store/apps/details?id=com.tribalfs.pixels)
+# Pixels ([Google Play Store](https://play.google.com/store/apps/details?id=com.tribalfs.pixels))
 
 Pixels needs **WRITE_SECURE_SETTINGS** permission in order to work. 
 
