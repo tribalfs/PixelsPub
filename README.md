@@ -9,7 +9,7 @@ Pixels needs **WRITE_SECURE_SETTINGS** permission in order to work.
 
 ----------------------
 
-Procedures to grant Galaxy Max Hz App WRITE_SECURE_SETTINGS permission using ADB:
+Procedures to grant Pixels app WRITE_SECURE_SETTINGS permission with a PC:
 ----------------------
 
 ### 1. Enable developer mode
@@ -113,13 +113,13 @@ You don't have to repeat this process unless you completely uninstall the app an
 
 ----------------------
 
-Alternative methods:
+**Alternative methods without using a PC:**
 
-For **rooted** devices without using a PC:
+For **rooted** devices:
 (1) Install a terminal emulator app from play store (e.g. [Termux](https://play.google.com/store/apps/details?id=com.termux)), grant root permission and run the following command: `su -c pm grant com.tribalfs.pixels android.permission.WRITE_SECURE_SETTINGS`.
 or (2) Install this [mini-app](https://github.com/tribalfs/gmhWriteSecureSettings/releases), grant root permission and run.
 
-For **non-rooted** devices without using a PC:
+For **non-rooted** devices:
 (1) Install [LADB Free](https://play.google.com/store/apps/details?id=com.draco.ladb.free&hl=en&gl=US)/[LADB Paid](https://play.google.com/store/apps/details?id=com.draco.ladb) from play store. Follow LADB setup instructions. Once LADB setup is done, execute `pm grant com.tribalfs.pixels android.permission.WRITE_SECURE_SETTINGS`
 
 ----------------------
