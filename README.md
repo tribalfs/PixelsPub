@@ -36,7 +36,7 @@ Procedures to grant Pixels app WRITE_SECURE_SETTINGS permission with a PC:
 
 ### 5. Using command-line
 
-#### 5.1. Windows: Open up CMD
+#### 5.1. For Windows PC: Open up CMD
 
  * Press `Windows + R` key on your keyboard.
 
@@ -44,7 +44,7 @@ Procedures to grant Pixels app WRITE_SECURE_SETTINGS permission with a PC:
 
 ![1](1.png)
 
-#### 5.2. macOS: Open up Terminal
+#### 5.2. For macOS PC: Open up Terminal
 
  * Search `Terminal` from Launchpad and run it.
 
