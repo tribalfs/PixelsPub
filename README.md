@@ -14,7 +14,7 @@ Procedures to grant Pixels app WRITE_SECURE_SETTINGS permission with a PC:
 
 ### 1. Enable developer mode
 
- * Go to `Settings` > `About phone` > `Software information` and tap `Build number` multiple times until the developer mode is enabled.
+ * Go to `Settings` > `About phone` > `Software information` and tap the `Build number` multiple times until the developer mode is enabled.
 
 ![about phone](about_phone.png)
 
