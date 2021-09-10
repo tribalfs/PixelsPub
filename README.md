@@ -105,8 +105,6 @@ Procedures to grant Galaxy Max Hz App WRITE_SECURE_SETTINGS permission using ADB
 
  ```adb shell pm grant com.tribalfs.pixels android.permission.WRITE_SECURE_SETTINGS```
 
- **Note that it's ```adb shell pm grant com.tribalfs.n20umaxhz android.permission.WRITE_SECURE_SETTINGS``` if you are using the app version 5.40 or lower.**
-
 
 ![6](6.png)
 
