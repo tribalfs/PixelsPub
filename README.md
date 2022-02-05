@@ -1,4 +1,5 @@
-# Pixels ([Google Play Store](https://play.google.com/store/apps/details?id=com.tribalfs.pixels))
+# Pixels - Smart Resolution and DPI Changer
+* [Google Play Store](https://play.google.com/store/apps/details?id=com.tribalfs.pixels)
 
 Pixels needs **WRITE_SECURE_SETTINGS** permission in order to work (this is NOT rooting). 
 
@@ -9,42 +10,39 @@ Pixels needs **WRITE_SECURE_SETTINGS** permission in order to work (this is NOT 
 
 ----------------------
 
-Procedures to grant Pixels app WRITE_SECURE_SETTINGS permission with a PC:
-----------------------
+### 1. Enable developer mode in phone's settings
 
-### 1. Enable developer mode
-
- * Go to `Settings` > `About phone` > `Software information` and tap the `Build number` multiple times until the developer mode is enabled.
+ * Go to `Settings` > `About phone` > `Software information` and tap `Build number` multiple times until the developer mode is enabled.
 
 ![about phone](about_phone.png)
 
 ### 2. Enable USB debugging
 
- * Go to `Android Settings app` > `System` > `Developer options`, scroll down a page and enable `USB debugging` option.
+ * Go to `Settings` > `Developer options` (can be `Settings` > `System` > `Developer options` on older android versions), scroll down and find `USB debugging` option.
 
 ![adb](adb.png)
 
 ### 3. Download ADB on your computer
 
- * Check [here](https://www.xda-developers.com/google-releases-separate-adb-and-fastboot-binary-downloads) and download ADB for your computer.
-
+ * Download ADB (platform-tools) to your computer:
+    for [Windows](https://dl.google.com/android/repository/platform-tools-latest-windows.zip) |
+    for [Mac](https://dl.google.com/android/repository/platform-tools-latest-darwin.zip) |
+    for [Linux](https://dl.google.com/android/repository/platform-tools-latest-linux.zip)
+    
  * Extract the downloaded zip file.
 
-### 4. Connect your phone to your computer
+### 4. Navigate inside the folder that you extracted (i.e. inside platform-tools) from Windows Explorer or Finder(macOS)
 
-----------------------
 
-### 5. Using command-line
+### 5. Opening the command-line interface
 
-#### 5.1. For Windows PC: Open up CMD
+#### For Windows: Open up CMD
+  
+ * Type `cmd` in the address bar and press enter.  This will open Windows Command Prompt.
 
- * Press `Windows + R` key on your keyboard.
+![opening_cmd](opening_cmd.png)
 
- * Type `cmd` and hit enter.
-
-![1](1.png)
-
-#### 5.2. For macOS PC: Open up Terminal
+#### For MacOS: Open up Terminal
 
  * Search `Terminal` from Launchpad and run it.
 
@@ -54,72 +52,39 @@ Procedures to grant Pixels app WRITE_SECURE_SETTINGS permission with a PC:
 
  **Without this, you will get `adb: command not found` errors.**
 
-### 6. Locate ADB
 
- * From the terminal window, type "cd ". **Notice the empty whitespace after the "cd".**
+### 6. Connecting your phone to your computer
 
- * Locate the extracted `platform-tools` folder from Windows Explorer or Finder(macOS) and drag it over to the terminal window. It'll auto-fill the path.
+ * Your phone will prompt `Allow USB debugging` if it's the first time being connected on USB debugging mode.  Tap `OK`.
 
-![2](2.png)
-
- * Press enter.
-
-![3](3.png)
-
-### 7. Allow your computer to be used for USB debugging
-
- * Enter the following to the CMD window, followed by an enter:
-
- ```adb shell echo success```
-
- * You can copy the commands and paste it by **right-clicking on the CMD window**.
-
-![4](4.png)
-
- * The command may show an error, **this is normal**. Your phone will prompt `Allow USB debugging` for you.
-
- * If it doesn't show an error, skip this step.
 
 ![adb prompt](adb_prompt.jpg)
 
- * Tap `OK`.
+ * Check the connection by entering the following command followed by an enter. It should show your device ID if successfully connected.
 
- * Try `adb shell echo success` again. **It must print `success`**.
+ ```adb devices```
+ 
+ ![6](adb_devices.png)
+ 
+ 
+### 7. Actual granting of WRITE_SECURE_SETTINGS permission to Galaxy Max Hz
 
-![5](5.png)
-
-### 8. Grant write secure settings permission
-
- * Enter the following to the CMD window, followed by an enter:
+ * When successfully connected, enter the following to the command followed by an enter.  If the command executed properly, it'll return blank.
 
  ```adb shell pm grant com.tribalfs.pixels android.permission.WRITE_SECURE_SETTINGS```
 
+![6](write_secure_settings.png)
 
-![6](6.png)
 
- * If the command executed properly, it'll return silently.
+### 8. You may now disable the USB debugging settings
 
-### 9. Disable USB debugging
-
- * If you don't need USB debugging, it's a good practice to disable it to avoid potential unwanted access.
+ * If you don't need USB debugging, it's recommended to disable it to avoid potential unwanted access.
 
  * Go to `Settings` > `Developer options`, scroll down a page and **disable** `USB debugging` option.
 
- * Run `adb kill-server` from the terminal window.
-
 **That's it!**
 
+----------------------
+
+
 You don't have to repeat this process unless you completely uninstall the app and reinstall it.
-
-----------------------
-
-**Alternative methods without using a PC:**
-
-For **rooted** devices:
-(1) Install a terminal emulator app from play store (e.g. [Termux](https://play.google.com/store/apps/details?id=com.termux)), grant root permission and run the following command: `su -c pm grant com.tribalfs.pixels android.permission.WRITE_SECURE_SETTINGS`.
-or (2) Install this [mini-app](https://github.com/tribalfs/gmhWriteSecureSettings/releases), grant root permission and run.
-
-For **non-rooted** devices:
-(1) Install [LADB Free](https://play.google.com/store/apps/details?id=com.draco.ladb.free&hl=en&gl=US)/[LADB Paid](https://play.google.com/store/apps/details?id=com.draco.ladb) from play store. Follow LADB setup instructions. Once LADB setup is done, execute `pm grant com.tribalfs.pixels android.permission.WRITE_SECURE_SETTINGS`
-
-----------------------
