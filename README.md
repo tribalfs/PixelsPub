@@ -31,7 +31,7 @@ Pixels needs **WRITE_SECURE_SETTINGS** permission in order to work (this is NOT 
     
  * Extract the downloaded zip file.
 
-### 4. Navigate inside the folder that you extracted (i.e. inside platform-tools) from Windows Explorer or Finder(macOS)
+### 4. Navigate inside the inside `platform-tools` folder that you extracted on  Windows Explorer or Finder(macOS)
 
 
 ### 5. Opening the command-line interface
