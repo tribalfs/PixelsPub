@@ -67,7 +67,7 @@ Pixels needs **WRITE_SECURE_SETTINGS** permission in order to work (this is NOT 
  ![6](adb_devices.png)
  
  
-### 7. Actual granting of WRITE_SECURE_SETTINGS permission to Galaxy Max Hz
+### 7. Actual granting of WRITE_SECURE_SETTINGS permission to Pixels
 
  * When successfully connected, enter the following to the command followed by an enter. You can copy the command below.  If the command executed properly, it'll return blank.
 
