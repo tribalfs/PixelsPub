@@ -6,7 +6,7 @@ Pixels needs **WRITE_SECURE_SETTINGS** permission in order to work (this is NOT 
 ----------------------
 ### TLDR
 
- * Run `adb shell pm grant com.tribalfs.pixels android.permission.WRITE_SECURE_SETTINGS`
+ * Execute `adb shell pm grant com.tribalfs.pixels android.permission.WRITE_SECURE_SETTINGS`
 
 ----------------------
 
