@@ -88,3 +88,6 @@ Pixels needs **WRITE_SECURE_SETTINGS** permission in order to work (this is NOT 
 
 
 You don't have to repeat this process unless you completely uninstall the app and reinstall it.
+
+----------------------
+If you need more help or experiencing any issue, please email us at tribalfs@gmail.com .
