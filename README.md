@@ -9,7 +9,8 @@ Pixels needs **WRITE_SECURE_SETTINGS** permission in order to work (this is NOT 
  * Execute `adb shell pm grant com.tribalfs.pixels android.permission.WRITE_SECURE_SETTINGS`
 
 ----------------------
-
+[VIDEO GUIDE](https://youtu.be/hKxc8wqanxA)
+----------------------
 ### 1. Enable developer mode in phone's settings
 
  * Go to `Settings` > `About phone` > `Software information` and tap `Build number` multiple times until the developer mode is enabled.
