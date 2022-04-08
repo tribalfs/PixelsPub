@@ -2,7 +2,7 @@
 * [Google Play Store](https://play.google.com/store/apps/details?id=com.tribalfs.pixels)
 
 Pixels needs **WRITE_SECURE_SETTINGS** permission in order to work (this is NOT rooting). 
-
+Resolution 2440*1080 My FHD+
 ----------------------
 ### TLDR
 
@@ -63,8 +63,9 @@ Pixels needs **WRITE_SECURE_SETTINGS** permission in order to work (this is NOT 
 
  * Check the connection by entering the following command followed by an enter. It should show your device ID if successfully connected.
 
- ```adb devices```
- 
+ ```adb devices```My FHD+2440*1080
+
+ ดำเนินการadb shell pm grant com.tribalfs.pixels android.permission.WRITE_SECURE_SETTINGS
  ![6](adb_devices.png)
  
  
