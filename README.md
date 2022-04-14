@@ -67,7 +67,9 @@ Pixels needs **WRITE_SECURE_SETTINGS** permission in order to work (this is NOT 
  
  ![6](adb_devices.png)
  
- 
+  * If your device fails to connect to your computer, your computer is possibly missing the USB driver for your phone. Check your phone manufacturer's website to download and install the USB driver for your phone. For Samsung smartphones, you can install [Samsung USB driver](https://developer.samsung.com/android-usb-driver) or [Samsung Dex for PC](https://www.samsung.com/us/explore/dex). Once installed, reboot your PC and redo step no. 6. 
+
+
 ### 7. Actual granting of WRITE_SECURE_SETTINGS permission to Pixels
 
  * When successfully connected, enter the following command and press enter. You can copy the command below.  If the command is executed properly, it will return blank.
