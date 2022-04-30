@@ -21,7 +21,7 @@ Pixels needs **WRITE_SECURE_SETTINGS** permission in order to work (this is NOT 
 
  * Go to `Settings` > `Developer options` (can be `Settings` > `System` > `Developer options` on older android versions), scroll down and find `USB debugging` option.
 
-![adb](usb_debugging.jpg)
+![adb](usb_debugging2.jpg)
 
 ### 3. Download ADB on your computer
 
@@ -59,7 +59,7 @@ Pixels needs **WRITE_SECURE_SETTINGS** permission in order to work (this is NOT 
  * Your phone will prompt `Allow USB debugging` if it's the first time being connected on USB debugging mode.  Tap `OK`.
 
 
-![adb prompt](adb_prompt.jpg)
+![adb prompt](usb_debugging_prompt.jpg)
 
  * Check the connection by entering the following command followed by an enter. It should show your device ID if successfully connected.
 
@@ -78,7 +78,7 @@ For macOS:  ```./adb devices ```
 
  ```adb shell pm grant com.tribalfs.pixels android.permission.WRITE_SECURE_SETTINGS```
 
-![6](write_secure_settings.png)
+![6](write_secure_settings2.png)
 
 For macOS: ```./adb shell pm grant com.tribalfs.pixels android.permission.WRITE_SECURE_SETTINGS ```
 
