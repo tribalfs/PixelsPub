@@ -67,6 +67,8 @@ Pixels needs **WRITE_SECURE_SETTINGS** permission in order to work (this is NOT 
  
  ![6](adb_devices.png)
  
+For macOS:  ```./adb devices ```
+ 
   * If your device fails to connect to your computer, your computer is possibly missing the USB driver for your phone. Check your phone manufacturer's website to download and install the USB driver for your phone. For Samsung smartphones, you can install [Samsung USB driver](https://developer.samsung.com/android-usb-driver) or [Samsung Dex for PC](https://www.samsung.com/us/explore/dex). Once installed, reboot your PC and redo step no. 6. 
 
 
@@ -77,6 +79,11 @@ Pixels needs **WRITE_SECURE_SETTINGS** permission in order to work (this is NOT 
  ```adb shell pm grant com.tribalfs.pixels android.permission.WRITE_SECURE_SETTINGS```
 
 ![6](write_secure_settings.png)
+
+For macOS: ```./adb shell pm grant com.tribalfs.pixels android.permission.WRITE_SECURE_SETTINGS ```
+
+Note: On some MIUI devices you need to enable the option "Disable permission Monitoring" under "Developer options" to be able to grant this permission.
+
 
 
 ### 8. You may now disable the USB debugging settings
