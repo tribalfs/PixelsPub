@@ -78,7 +78,7 @@ For macOS:  ```./adb devices ```
 
  ```adb shell pm grant com.tribalfs.pixels android.permission.WRITE_SECURE_SETTINGS```
 
-![6](write_secure_settings.png)
+![6](write_secure_settings2.png)
 
 For macOS: ```./adb shell pm grant com.tribalfs.pixels android.permission.WRITE_SECURE_SETTINGS ```
 
