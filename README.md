@@ -21,7 +21,7 @@ Pixels needs **WRITE_SECURE_SETTINGS** permission in order to work (this is NOT 
 
  * Go to `Settings` > `Developer options` (can be `Settings` > `System` > `Developer options` on older android versions), scroll down and find `USB debugging` option.
 
-![adb](usb_debugging2.jpg)
+![adb](usb_debugging.jpg)
 
 ### 3. Download ADB on your computer
 
