@@ -88,7 +88,7 @@ Note: On some MIUI devices you need to enable the option "Disable permission Mon
 
 ### 8. You may now disable the USB debugging settings
 
- * If you don't need USB debugging, it's recommended to disable it to avoid potential unwanted access.
+ * If you don't need USB debugging,  you may now disable the USB debugging settings to avoid potential unwanted access.
 
  * Go to `Settings` > `Developer options`, scroll down a page and **disable** `USB debugging` option.
 
