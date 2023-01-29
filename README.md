@@ -13,13 +13,13 @@ Pixels needs **WRITE_SECURE_SETTINGS** permission in order to work (this is NOT 
 ----------------------
 ### 1. Enable developer mode in phone's settings
 
- * Go to `Settings` > `About phone` > `Software information` and tap `Build number` multiple times until the developer mode is enabled.
+ * Go to _Settings_ > _About phone_ > _Software information_ and tap _Build number_ multiple times until the developer mode is enabled.
 
 ![about phone](about_phone2.jpg)
 
 ### 2. Enable USB debugging
 
- * Go to `Settings` > `Developer options` (can be `Settings` > `System` > `Developer options` on older android versions), scroll down and find `USB debugging` option.
+ * Go to _Settings_ > _Developer options_ (can be _Settings_ > _System_ > _Developer options_ on older android versions), scroll down and find _USB debugging_ option.
 
 ![adb](usb_debugging.jpg)
 
@@ -56,7 +56,8 @@ Pixels needs **WRITE_SECURE_SETTINGS** permission in order to work (this is NOT 
 
 ### 6. Connecting your phone to your computer
 
- * Your phone will prompt `Allow USB debugging` if it's the first time being connected on USB debugging mode.  Tap `OK`.
+ * Your phone will prompt _Allow USB debugging_ if it's the first time being connected on USB debugging mode.  Tap _Allow_ or _OK_.
+ * Optionally, you may want to check _Always allow from this computer_. Please check note at the end about keeping the USB debugging enabled.
 
 
 ![adb prompt](usb_debugging_prompt.jpg)
@@ -82,7 +83,7 @@ For macOS:  ```./adb devices ```
 
 For macOS: ```./adb shell pm grant com.tribalfs.pixels android.permission.WRITE_SECURE_SETTINGS ```
 
-Note: On some MIUI devices you need to enable the option "Disable permission Monitoring" under "Developer options" to be able to grant this permission.  If having a `java.lang.SecurityException` error, it's reported that turning on all debugging options helps.
+Note: On some MIUI devices you need to enable the option _Disable permission Monitoring_ in _Developer options_ to be able to grant this permission.  If having a `java.lang.SecurityException` error, it's reported that turning on all debugging options helps.
 
 **That's it!**
 
@@ -90,9 +91,9 @@ Note: On some MIUI devices you need to enable the option "Disable permission Mon
 
  * If you don't need USB debugging,  you may now disable the USB debugging settings to avoid potential unwanted access.
 
- * Go to `Settings` > `Developer options`, scroll down a page and **disable** `USB debugging` option.
+ * Go to _Settings_ > _Developer options_, scroll down a page and **disable** _USB debugging_ option.
  
- * **Important**: Keep  USB debugging enabled if you want to try exotic screen resolution(s) on your device that may potentially break the device UI. ADB commands to reset screen resolution: `adb shell wm size reset` and `adb shell wm density reset`.
+ * **Important**: Keep  USB debugging enabled if you want to try exotic screen resolution(s) on your device that may potentially break the device UI. _Always allow from this computer_ should be checked in step 6. ADB commands to reset screen resolution: `adb shell wm size reset` and `adb shell wm density reset`.
 
 
 ----------------------
