@@ -84,14 +84,16 @@ For macOS: ```./adb shell pm grant com.tribalfs.pixels android.permission.WRITE_
 
 Note: On some MIUI devices you need to enable the option "Disable permission Monitoring" under "Developer options" to be able to grant this permission.  If having a `java.lang.SecurityException` error, it's reported that turning on all debugging options helped.
 
+**That's it!**
 
 ### 8. You may now disable the USB debugging settings
 
  * If you don't need USB debugging,  you may now disable the USB debugging settings to avoid potential unwanted access.
 
  * Go to `Settings` > `Developer options`, scroll down a page and **disable** `USB debugging` option.
+ 
+ * **Important**: Keep  USB debugging enabled if you want to try exotic screen resolution(s) for your device that may potentially break the device UI. ADB command to reset screen resolution: `adb shell wm size reset`
 
-**That's it!**
 
 ----------------------
 
