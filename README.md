@@ -57,7 +57,7 @@ Pixels needs **WRITE_SECURE_SETTINGS** permission in order to work (this is NOT 
 ### 6. Connecting your phone to your computer
 
  * Your phone will prompt _Allow USB debugging_ if it's the first time being connected on USB debugging mode.  Tap _Allow_ or _OK_.
- * Optionally, you may want to check _Always allow from this computer_. Please check note at the end about keeping the USB debugging enabled.
+ * Optionally, you may want to check _Always allow from this computer_ (Please check note at the end about keeping the USB debugging enabled).
 
 
 ![adb prompt](usb_debugging_prompt.jpg)
