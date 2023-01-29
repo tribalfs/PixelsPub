@@ -82,7 +82,7 @@ For macOS:  ```./adb devices ```
 
 For macOS: ```./adb shell pm grant com.tribalfs.pixels android.permission.WRITE_SECURE_SETTINGS ```
 
-Note: On some MIUI devices you need to enable the option "Disable permission Monitoring" under "Developer options" to be able to grant this permission.  If having a `java.lang.SecurityException` error, it's reported that turning on all debugging options helped.
+Note: On some MIUI devices you need to enable the option "Disable permission Monitoring" under "Developer options" to be able to grant this permission.  If having a `java.lang.SecurityException` error, it's reported that turning on all debugging options helps.
 
 **That's it!**
 
