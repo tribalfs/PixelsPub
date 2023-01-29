@@ -93,7 +93,7 @@ Note: On some MIUI devices you need to enable the option _Disable permission Mon
 
  * Go to _Settings_ > _Developer options_, scroll down a page and **disable** _USB debugging_ option.
  
- * **Important**: Keep  USB debugging enabled if you want to try exotic screen resolution(s) on your device that may potentially crash the system and break the device UI. _Always allow from this computer_ should be checked in step 6. ADB commands to reset screen resolution: `adb shell wm size reset` and `adb shell wm density reset`.
+ * **Important**: Keep  USB debugging enabled if you want to try exotic screen resolution(s) on your device that may potentially crash the system. _Always allow from this computer_ should be checked in step 6. ADB commands to reset screen resolution: `adb shell wm size reset` and `adb shell wm density reset`.
 
 
 ----------------------
