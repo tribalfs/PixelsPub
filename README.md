@@ -86,7 +86,7 @@ Note: On some MIUI devices you need to enable the option "Disable permission Mon
 
 **That's it!**
 
-### 8. You may now disable the USB debugging settings
+### You may now disable the USB debugging settings
 
  * If you don't need USB debugging,  you may now disable the USB debugging settings to avoid potential unwanted access.
 
