@@ -39,7 +39,7 @@ Pixels needs **WRITE_SECURE_SETTINGS** permission in order to work (this is NOT 
 
 #### For Windows: Open up CMD
   
- * Type `cmd` in the address bar and press enter.  This will open Windows Command Prompt.
+ * Type `cmd` in the address bar and press enter.  This will open the Windows Command Prompt application.
 
 ![opening_cmd](opening_cmd.png)
 
