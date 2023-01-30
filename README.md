@@ -70,7 +70,7 @@ Pixels needs **WRITE_SECURE_SETTINGS** permission in order to work (this is NOT 
  
 For macOS:  ```./adb devices ```
  
-  * If your device fails to connect to your computer, try connecting it a different USB port and/or using a different USB data cable. If still not connecting, your computer is possibly missing the USB driver for your phone. Check [here to download OEM USB drivers](https://developer.android.com/studio/run/oem-usb#Drivers). Once installed, reboot your PC and redo step no. 6. 
+  * If your device fails to connect to your computer, try connecting it to a different USB port and/or using a different USB data cable. If still not connecting, your computer is possibly missing the USB driver for your phone. Check [here to download OEM USB drivers](https://developer.android.com/studio/run/oem-usb#Drivers). Once installed, reboot your PC and redo step no. 6. 
 
 
 ### 7. Actual granting of WRITE_SECURE_SETTINGS permission to Pixels
