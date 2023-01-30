@@ -16,8 +16,8 @@ This App includes Google Mobile Ads Sdk.
 | Data	By default | the Google Mobile Ads SDK... |
 | ------------- | ------------- |
 |IP address|Collects device's IP address, which may be used to estimate the general location of a device.|
-|User product interactions	|Collects user product interactions and interaction information, including app launch, taps, and video views.|
-|Diagnostic information	|Collects information related to the performance of your app and the SDK, including crash logs, app launch time, hang rate, and energy usage.|
+|User product interactions	|Collects user interactions and interaction information, including app launch, taps, and video views.|
+|Diagnostic information	|Collects information related to the performance of This App and the SDK, including crash logs, app launch time, hang rate, and energy usage.|
 |Device and Account identifiers	|Collects Android advertising (ad) ID, app set ID, and, if applicable, other identifiers related to signed-in accounts on the device.|
 
 All of the user data collected by Google Mobile Ads SDK is encrypted in transit using the Transport Layer Security (TLS) protocol.
