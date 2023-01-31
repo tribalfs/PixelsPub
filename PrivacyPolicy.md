@@ -23,7 +23,7 @@ This App includes Google Mobile Ads Sdk.
 All of the user data collected by Google Mobile Ads SDK is encrypted in transit using the Transport Layer Security (TLS) protocol.
 
 #### Data handling
-Android ad ID collection by Google Mobile Ads Sdk is optional. The ad ID can be reset or deleted by users using ad ID controls in the Android settings menu. As the app developer, you can prevent the collection of ad IDs by updating the app's manifest file.
+Android ad ID collection by Google Mobile Ads Sdk is optional. The ad ID can be reset or deleted by users using ad ID controls in the Android settings menu. 
 
 Certain other features in the Google Mobile Ads SDK, such as the Limited Ads feature, may also disable transmission of the ad ID and other data.
 
