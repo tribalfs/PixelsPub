@@ -78,9 +78,10 @@ Pixels needs **WRITE_SECURE_SETTINGS** permission in order to work (this is NOT 
 
  * When successfully connected, enter the following command and press enter. You can copy the command below.  If the command is executed properly, it will return blank.
 
- ```adb shell pm grant com.tribalfs.pixels android.permission.WRITE_SECURE_SETTINGS```
+ > ```adb shell pm grant com.tribalfs.pixels android.permission.WRITE_SECURE_SETTINGS```
  
- If it prompts `adb.exe: more than one device/emulator...`, execute:  ```adb -s [device Id shown in step 6] shell pm grant com.tribalfs.pixels android.permission.WRITE_SECURE_SETTINGS```
+ * If it prompts `adb.exe: more than one device/emulator...`, execute the following instead:
+ > ```adb -s [device Id shown in step 6] shell pm grant com.tribalfs.pixels android.permission.WRITE_SECURE_SETTINGS```
 
 
 ![6](write_secure_settings.png)
