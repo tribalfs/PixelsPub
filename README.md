@@ -69,7 +69,7 @@ Pixels needs **WRITE_SECURE_SETTINGS** permission in order to work (this is NOT 
  
  ![6](adb_devices.png)
  
-For macOS:  ```./adb devices ```
+#### For macOS:  ```./adb devices ```
  
   * If your device fails to connect to your computer, try connecting it to a different USB port and/or using a different USB data cable. If still not connecting, your computer is possibly missing the USB driver for your phone. Check [here to download OEM USB drivers](https://developer.android.com/studio/run/oem-usb#Drivers). Once installed, reboot your PC and redo step no. 6. 
 
@@ -79,12 +79,17 @@ For macOS:  ```./adb devices ```
  * When successfully connected, enter the following command and press enter. You can copy the command below.  If the command is executed properly, it will return blank.
 
  ```adb shell pm grant com.tribalfs.pixels android.permission.WRITE_SECURE_SETTINGS```
+ 
+ If it prompts `adb.exe: more than one device/emulator...`, execute:  ```adb -s [device Id shown in step 6] shell pm grant com.tribalfs.pixels android.permission.WRITE_SECURE_SETTINGS```
+
 
 ![6](write_secure_settings.png)
 
-For macOS: ```./adb shell pm grant com.tribalfs.pixels android.permission.WRITE_SECURE_SETTINGS ```
+####  For macOS: ```./adb shell pm grant com.tribalfs.pixels android.permission.WRITE_SECURE_SETTINGS ```
 
-Note: On some MIUI devices you need to enable the option _Disable permission Monitoring_ in _Developer options_ to be able to grant this permission.  If having a `java.lang.SecurityException` error, it's reported that turning on all debugging options in Developer options helps.
+#### Note for MIUI devices
+
+ * On some MIUI devices you need to enable the option _Disable permission Monitoring_ in _Developer options_ to be able to grant this permission.  If having a `java.lang.SecurityException` error, it's reported that turning on all debugging options in Developer options helps.
 
 **That's it!**
 
