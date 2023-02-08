@@ -65,7 +65,7 @@ Pixels needs **WRITE_SECURE_SETTINGS** permission in order to work (this is NOT 
 
  * Check the connection by entering the following command followed by an enter. It should show your device ID if successfully connected.
 
- ```adb devices```
+ > ```adb devices```
  
  ![6](adb_devices.png)
  
