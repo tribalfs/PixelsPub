@@ -24,6 +24,10 @@ Pixels needs **WRITE_SECURE_SETTINGS** permission in order to work (this is NOT 
 
 ![adb](usb_debugging.jpg)
 
+#### For MIUI devices, 
+ * Turn on _USB debugging for Security Settings_ also.
+
+
 ### 3. Download ADB on your computer
 
  * Download ADB (platform-tools) to your computer:
@@ -90,7 +94,7 @@ Pixels needs **WRITE_SECURE_SETTINGS** permission in order to work (this is NOT 
 
 #### Note for MIUI devices
 
- * On some MIUI devices you need to enable the option _Disable permission Monitoring_ in _Developer options_ to be able to grant this permission.  If having a `java.lang.SecurityException` error, it's reported that turning on all debugging options in Developer options helps.
+ * On some MIUI devices you need to enable the option _Disable permission Monitoring_ in _Developer options_ to be able to grant this permission.  If having a `java.lang.SecurityException` error, it's reported that turning on all USB debugging options in Developer options helps.
 
 **That's it!**
 
