@@ -94,7 +94,7 @@ Pixels needs **WRITE_SECURE_SETTINGS** permission in order to work (this is NOT 
 
 #### Note for MIUI devices
 
- * On some MIUI devices you need to enable the option _Disable permission Monitoring_ in _Developer options_ to be able to grant this permission.  If having a `java.lang.SecurityException` error, it's reported that turning on all USB debugging options in Developer options helps.
+ * On some MIUI devices you need to enable the option _Disable permission Monitoring_ in _Developer options_ to be able to grant this permission.
 
 **That's it!**
 
