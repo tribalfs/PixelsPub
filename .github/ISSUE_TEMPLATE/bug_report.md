@@ -32,3 +32,10 @@ If applicable, add link to screen recording or screenshots to help explain your 
 
 **Additional context**
 Add any other context about the problem here.
+
+**If the app crashes on your device**
+Please provide a logcat following this procedure:
+Execute the following adb command.  Do this right after the crash (device must not be rebooted yet):
+`adb logcat -b crash > crashlog.txt`
+_Ctrl+C_ after ~5seconds.
+Then locate _crashlog.txt_ file in your adb installation folder then send it us.
