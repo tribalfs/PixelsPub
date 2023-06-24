@@ -92,9 +92,9 @@ Pixels needs **WRITE_SECURE_SETTINGS** permission in order to work (this is NOT 
 
 ####  For macOS: ```./adb shell pm grant com.tribalfs.pixels android.permission.WRITE_SECURE_SETTINGS ```
 
-#### Note for MIUI devices
+#### Note for MIUI and OnePlus devices
 
- * On some MIUI devices you need to enable the option _Disable permission Monitoring_ in _Developer options_ to be able to grant this permission.
+ * On some MIUI and OnePlus devices you need to enable the option _Disable permission Monitoring_ in _Developer options_ to be able to grant this permission. Reboot is needed.
 
 **That's it!**
 
