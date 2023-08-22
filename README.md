@@ -24,8 +24,8 @@ Pixels needs **WRITE_SECURE_SETTINGS** permission in order to work (this is NOT 
 
 ![adb](usb_debugging.jpg)
 
-#### For MIUI devices, 
- * Turn on _USB debugging for Security Settings_ also.
+#### For MIUI and some other devices, 
+ * Turn on _USB debugging for Security Settings_ also if present in Developer option.
 
 
 ### 3. Download ADB on your computer
@@ -92,9 +92,9 @@ Pixels needs **WRITE_SECURE_SETTINGS** permission in order to work (this is NOT 
 
 ####  For macOS: ```./adb shell pm grant com.tribalfs.pixels android.permission.WRITE_SECURE_SETTINGS ```
 
-#### Note for MIUI and OnePlus devices
+#### Note for MIUI, OnePlus and some other devices
 
- * On some MIUI and OnePlus devices you need to enable the option _Disable permission Monitoring_ in _Developer options_ to be able to grant this permission. Reboot is needed.
+ * On some devices you need to enable the option _Disable permission Monitoring_ in _Developer options_ to be able to grant this permission. Reboot is needed.
 
 **That's it!**
 
