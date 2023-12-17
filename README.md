@@ -2,15 +2,11 @@
 
 * [Google Play Store](https://play.google.com/store/apps/details?id=com.tribalfs.pixels)
 
-Pixels needs **WRITE_SECURE_SETTINGS** permission in order to work (this is NOT rooting).
 
 ----------------------
 
 ### TLDR
 
-* Execute `adb shell pm grant com.tribalfs.pixels android.permission.WRITE_SECURE_SETTINGS`
-* If using an android terminal app with elevated permission,
-  execute `pm grant com.tribalfs.pixels android.permission.WRITE_SECURE_SETTINGS`
 
 ADB Procedures using a PC:
 ----------------------
@@ -42,16 +38,6 @@ ADB Procedures using a PC:
 
 </details>
 
-### 3. Download ADB on your computer
-
-<details>
-
-* Download ADB (platform-tools) to your computer:
-  for [Windows](https://dl.google.com/android/repository/platform-tools-latest-windows.zip) |
-  for [Mac](https://dl.google.com/android/repository/platform-tools-latest-darwin.zip) |
-  for [Linux](https://dl.google.com/android/repository/platform-tools-latest-linux.zip)
-
-* Extract the downloaded zip file.
 
 </details>
 
@@ -95,7 +81,6 @@ ADB Procedures using a PC:
 * Check the connection by entering the following command followed by an enter. It should show your
   device ID if successfully connected.
 
-> ```adb devices```
 
 ![6](adb_devices.png)
 
@@ -116,11 +101,9 @@ ADB Procedures using a PC:
 * When successfully connected, enter the following command and press enter. You can copy the command
   below. If the command is executed properly, it will return blank.
 
-> ```adb shell pm grant com.tribalfs.pixels android.permission.WRITE_SECURE_SETTINGS```
 
-* If it prompts `adb.exe: more than one device/emulator...`, execute the following instead:
+* If it prompts execute the following instead:
 
-> ```adb -s [device Id shown in step 6] shell pm grant com.tribalfs.pixels android.permission.WRITE_SECURE_SETTINGS```
 
 
 ![6](write_secure_settings.png)
@@ -155,7 +138,7 @@ ADB Procedures Without Using a PC:
 <details>
 
 * You can install [LADB](https://github.com/tribalfs/LADB/releases), follow its setup guide and
-  execute `pm grant com.tribalfs.pixels android.permission.WRITE_SECURE_SETTINGS`
+
 
 </details>
 
