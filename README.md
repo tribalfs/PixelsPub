@@ -13,8 +13,7 @@ Pixels needs **WRITE_SECURE_SETTINGS** permission in order to work (this is NOT 
   execute `pm grant com.tribalfs.pixels android.permission.WRITE_SECURE_SETTINGS`
 
 ADB Procedures using a PC:
-----------------------
-[VIDEO GUIDE](https://youtu.be/hKxc8wqanxA)
+
 ----------------------
 
 ### 1. Enable developer mode in phone's settings
@@ -146,6 +145,9 @@ ADB Procedures using a PC:
   device that may potentially crash the system. _Always allow from this computer_ should be checked
   in step 6. ADB commands to reset screen resolution: `adb shell wm size reset`
   and `adb shell wm density reset`.
+
+----------------------
+[VIDEO GUIDE](https://youtu.be/hKxc8wqanxA)
 
 ----------------------
 
