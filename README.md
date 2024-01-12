@@ -158,10 +158,14 @@ ADB Procedures Without Using a PC:
 
 * You can install [LADB](https://github.com/tribalfs/LADB/releases), follow its setup guide and
   execute `pm grant com.tribalfs.pixels android.permission.WRITE_SECURE_SETTINGS`
+  
+  Note: This requires connecting to a wifi network.
 
+* [VIDEO WALKTHROUGH](https://youtu.be/gdPHB9ru238)
+    
 </details>
 
-[VIDEO WALKTHROUGH](https://youtu.be/gdPHB9ru238)
+
   
 ----------------------
 
