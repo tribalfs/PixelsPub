@@ -161,6 +161,8 @@ ADB Procedures Without Using a PC:
 
 </details>
 
+[VIDEO WALKTHROUGH](https://youtu.be/gdPHB9ru238)
+  
 ----------------------
 
 ### You don't have to repeat this process unless you completely uninstall the app and reinstall it.
