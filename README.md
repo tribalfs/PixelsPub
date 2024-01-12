@@ -87,7 +87,7 @@ ADB Procedures using a PC:
 
 * Your phone will prompt _Allow USB debugging_ if it's the first time being connected on USB
   debugging mode. Tap _Allow_ or _OK_.
-* Optionally, you may want to check _Always allow from this computer_ (Please check note at the end
+* You may check _Always allow from this computer_ (Please check note at the end
   of this tutorial about keeping the USB debugging enabled).
 
 ![adb prompt](usb_debugging_prompt.jpg)
@@ -135,17 +135,17 @@ ADB Procedures using a PC:
 **That's it!**
 </details>
 
-### You may now disable the USB debugging settings
-
-* If you don't need USB debugging, you may now disable the USB debugging settings to avoid potential
-  unwanted access.
-
-* Go to _Settings_ > _Developer options_, scroll down a page and **disable** _USB debugging_ option.
+#### You may now disable the USB debugging settings
 
 * **Important**: Keep USB debugging enabled if you want to try exotic screen resolution(s) on your
   device that may potentially crash the system. _Always allow from this computer_ should be checked
   in step 6. ADB commands to reset screen resolution: `adb shell wm size reset`
   and `adb shell wm density reset`.
+
+* If you don't need USB debugging, you may now disable the USB debugging settings to avoid potential
+  unwanted access.
+
+* Go to _Settings_ > _Developer options_, scroll down a page and **disable** _USB debugging_ option.
 
 ----------------------
 [VIDEO GUIDE](https://youtu.be/hKxc8wqanxA)
