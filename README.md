@@ -162,9 +162,11 @@ ADB Procedures Without Using a PC:
 
    `pm grant com.tribalfs.pixels android.permission.WRITE_SECURE_SETTINGS`
   
-  Note: This requires connecting to a wifi network.
+  Note: This requires connecting to a wifi network. 
 
 * [VIDEO WALKTHROUGH](https://youtu.be/gdPHB9ru238)
+
+  LADB may not work on all device. Sometimes it requires a few try to make it work. 
     
 </details>
 
