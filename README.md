@@ -1,3 +1,4 @@
+![Uploading Picsart_24-02-20_13-08-08-541.png…]()
 # Pixels - Smart Resolution and DPI Changer
 
 * [Google Play Store](https://play.google.com/store/apps/details?id=com.tribalfs.pixels)
