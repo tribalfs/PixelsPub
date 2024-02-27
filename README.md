@@ -36,10 +36,11 @@ ADB Procedures using a PC:
 
 ![adb](usb_debugging.jpg)
 
-#### For MIUI and some other devices,
+#### Notes for some devices like MIUI:
 
 * Turn on _USB debugging for Security Settings_ also if present in Developer option.
-
+  
+* Enable t_Disable permission Monitoring_ option if present in Developer options. Reboot is needed.
 </details>
 
 ### 3. Download ADB on your computer
@@ -113,8 +114,7 @@ ADB Procedures using a PC:
 
   <details>
 
-* When successfully connected, enter the following command and press enter. You can copy the command
-  below. If the command is executed properly, it will return blank.
+* When successfully connected, enter the following command and press enter. You can copy the command below. If the command is executed properly, it will return blank.
 
 > ```adb shell pm grant com.tribalfs.pixels android.permission.WRITE_SECURE_SETTINGS```
 
@@ -128,9 +128,6 @@ ADB Procedures using a PC:
 #### For macOS: ```./adb shell pm grant com.tribalfs.pixels android.permission.WRITE_SECURE_SETTINGS ```
 
 #### Note for MIUI, OnePlus and some other devices
-
-* On some devices you need to enable the option _Disable permission Monitoring_ in _Developer
-  options_ to be able to grant this permission. Reboot is needed.
 
 **That's it!**
 </details>
@@ -162,7 +159,7 @@ ADB Procedures Without Using a PC:
 
    `pm grant com.tribalfs.pixels android.permission.WRITE_SECURE_SETTINGS`
   
-  Note: This requires connecting to a wifi network. 
+  Note: This requires connecting to a wifi network.  If having a java.lang.SecurityException, check notes in step 2 above.
 
 * [VIDEO WALKTHROUGH](https://youtu.be/gdPHB9ru238)
 
