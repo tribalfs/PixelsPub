@@ -40,7 +40,7 @@ ADB Procedures using a PC:
 
 * Turn on _USB debugging for Security Settings_ also if present in Developer option.
   
-* Enable t_Disable permission Monitoring_ option if present in Developer options. Reboot is needed.
+* Turn on _Disable permission Monitoring_ option if present in Developer options. Reboot is needed.
 </details>
 
 ### 3. Download ADB on your computer
