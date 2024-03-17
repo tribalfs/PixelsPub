@@ -163,7 +163,7 @@ ADB Procedures Without Using a PC:
 
 * [VIDEO WALKTHROUGH](https://youtu.be/gdPHB9ru238)
 
-  Important: LADB may not work on all devices. Sometimes it requires a few try to make it work. 
+  Important: LADB sometimes it requires a few try to make it work and it may not work on all devices. 
     
 </details>
 
