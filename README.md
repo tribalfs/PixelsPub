@@ -173,4 +173,5 @@ ADB Procedures Without Using a PC:
 
 ### You don't have to repeat this process unless you completely uninstall the app and reinstall it.
 
+todo cabeza en free fire y todo rojo 
 
