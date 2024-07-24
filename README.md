@@ -1,10 +1,11 @@
 # Pixels - Smart Resolution and DPI Changer
 
-* [Google Play Store](https://play.google.com/store/apps/details?id=com.tribalfs.pixels)
+* [Google Play Store](https://play.google.com/stfpi
+* ore/apps/details?id=com.tribalfs.pixels)
 
 Pixels needs **WRITE_SECURE_SETTINGS** permission in order to work (this is NOT rooting).
 
-----------------------
+----------------dpi------
 
 ### TLDR
 
@@ -12,7 +13,7 @@ Pixels needs **WRITE_SECURE_SETTINGS** permission in order to work (this is NOT 
 * If using an android terminal app with elevated permission,
   execute `pm grant com.tribalfs.pixels android.permission.WRITE_SECURE_SETTINGS`
 
-----------------------
+------------------dpi----
 
 ADB Procedures using a PC:
 ----------------------
