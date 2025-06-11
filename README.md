@@ -128,6 +128,11 @@ ADB Procedures using a PC:
 #### For macOS: ```./adb shell pm grant com.tribalfs.pixels android.permission.WRITE_SECURE_SETTINGS ```
 
 #### Note for MIUI, OnePlus and some other devices
+If you get `java.lang.SecurityException: grantRuntimePermission` Error, follow these steps:
+1. Go to _Settings_ > _Developer options_ (can be _Settings_ > _System_ > _Developer options_
+2. Scroll down and enable **USB Debugging (Security Settings)**
+3. If any _Caution Dialogue_ appears, follow it's steps to proceed.
+4. Reboot your device and try Section 7 steps again.
 
 **That's it!**
 </details>
