@@ -1,5 +1,6 @@
 [English](../../README.md) | [Español](../es/README.md) | [Português](../pt/README.md) | [हिन्दी](README.md)
 | [Bahasa Indonesia](../in/README.md) | [العربية](../ar/README.md)| [ไทย](../th/README.md)
+| [Русский](../ru/README.md)
 
 # पिक्सेल - स्मार्ट रिज़ॉल्यूशन और डीपीआई चेंजर
 

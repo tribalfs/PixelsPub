@@ -1,5 +1,6 @@
 [English](../../README.md) | [Español](../es/README.md) | [Português](README.md) | [हिन्दी](../hi/README.md)
 | [Bahasa Indonesia](../in/README.md) | [العربية](../ar/README.md)| [ไทย](../th/README.md)
+| [Русский](../ru/README.md)
 
 # Pixels - Alterador Inteligente de Resolução e DPI
 
