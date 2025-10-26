@@ -1,6 +1,8 @@
-[English](../../README.md) | [Español](../es/README.md) | [Português](../pt/README.md) | [हिन्दी](../hi/README.md)
-| [Bahasa Indonesia](../in/README.md) | [العربية](../ar/README.md) | [ไทย](../th/README.md)
-| [Русский](README.md) | [中文 (简体)](../zh-rCN/README.md)
+[English](../../README.md) | [Español](../es/README.md)
+| [Português](../pt/README.md) | [Bahasa Indonesia](../in/README.md)
+| <u>[Русский](README.md)</u> | [中文 (简体)](../zh-rCN/README.md)
+| [日本語](../ja-rJP/README.md) | [Tiếng Việt](../vi/README.md)
+| [हिन्दी](../hi/README.md) | [العربية](../ar/README.md) | [ไทย](../th/README.md)
 
 # Pixels - Умное изменение разрешения и DPI
 
@@ -27,9 +29,8 @@ Pixels требуется разрешение **WRITE_SECURE_SETTINGS** для 
 
 <details>
 
-* Перейдите в _Настройки_ > _Сведения о телефоне_ > _Сведения о ПО_ и несколько раз нажмите _Номер
-  сборки_
-  до тех пор, пока не будет включен режим разработчика.
+* Перейдите в _Настройки_ > _Сведения о телефоне_ > _Сведения о ПО_ и нажмите _Номер сборки_
+  последовательно семь (7) раз, чтобы включить параметры разработчика.
 
   <img src="res/about_phone.jpg" width=320 height=640 alt="about phone">
 
@@ -80,7 +81,7 @@ Pixels требуется разрешение **WRITE_SECURE_SETTINGS** для 
 
 * Введите `cmd` в адресной строке и нажмите Enter. Это откроет приложение командной строки Windows.
 
-![opening_cmd](../../docs/en/res/opening_cmd.png)
+  ![opening_cmd](../../docs/en/res/opening_cmd.png)
 
 #### Для MacOS: Откройте терминал
 

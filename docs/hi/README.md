@@ -1,8 +1,10 @@
-[English](../../README.md) | [Español](../es/README.md) | [Português](../pt/README.md) | [हिन्दी](README.md)
-| [Bahasa Indonesia](../in/README.md) | [العربية](../ar/README.md)| [ไทย](../th/README.md)
+[English](../../README.md) | [Español](../es/README.md)
+| [Português](../pt/README.md) | [Bahasa Indonesia](../in/README.md)
 | [Русский](../ru/README.md) | [中文 (简体)](../zh-rCN/README.md)
+| [日本語](../ja-rJP/README.md) | [Tiếng Việt](../vi/README.md)
+| <u>[हिन्दी](README.md)</u> | [العربية](../ar/README.md) | [ไทย](../th/README.md)
 
-# पिक्सेल - स्मार्ट रिज़ॉल्यूशन और डीपीआई चेंजर
+# Pixels - स्मार्ट रिज़ॉल्यूशन और डीपीआई चेंजर
 
 * [गूगल प्ले स्टोर](https://play.google.com/store/apps/details?id=com.tribalfs.pixels)
 
@@ -27,8 +29,9 @@
 
 <details>
 
-* _सेटिंग्स_ > _फोन के बारे में_ > _सॉफ्टवेयर जानकारी_ पर जाएं और डेवलपर मोड सक्षम होने तक _बिल्ड
-  नंबर_ पर कई बार टैप करें।
+* डेवलपर विकल्प सक्षम करने के लिए _सेटिंग्स_ > _फोन के बारे में_ > _सॉफ्टवेयर जानकारी_ पर जाएं और
+  _बिल्ड नंबर_ पर क्रमिक रूप से सात (7) बार टैप करें।
+
   <img src="res/about_phone.jpg" width=320 height=640 alt="फोन के बारे में">
 
 </details>
@@ -77,7 +80,7 @@
 * एड्रेस बार में `cmd` टाइप करें और एंटर दबाएं। यह विंडोज कमांड प्रॉम्प्ट
   एप्लिकेशन खोलेगा।
 
-![ओपनिंग_सीएमडी](res/opening_cmd.png)
+  ![ओपनिंग_सीएमडी](res/opening_cmd.png)
 
 #### MacOS के लिए: टर्मिनल खोलें
 

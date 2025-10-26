@@ -1,6 +1,8 @@
-[English](../../README.md) | [Español](README.md) | [Português](../pt/README.md) | [हिन्दी](../hi/README.md)
-| [Bahasa Indonesia](../in/README.md) | [العربية](../ar/README.md)| [ไทย](../th/README.md)
+[English](../../README.md) | <u>[Español](README.md)</u>
+| [Português](../pt/README.md) | [Bahasa Indonesia](../in/README.md)
 | [Русский](../ru/README.md) | [中文 (简体)](../zh-rCN/README.md)
+| [日本語](../ja-rJP/README.md) | [Tiếng Việt](../vi/README.md)
+| [हिन्दी](../hi/README.md)| [العربية](../ar/README.md) | [ไทย](../th/README.md)
 
 # Pixels - Cambiador Inteligente de Resolución y DPI
 
@@ -29,9 +31,8 @@ Procedimiento ADB usando un PC:
 
 <details>
 
-* Ve a _Ajustes_ > _Acerca del teléfono_ > _Información de software_ y toca varias veces sobre
-  _Número de
-  compilación_ hasta que se habilite el modo desarrollador.
+* Ve a _Ajustes_ > _Acerca del teléfono_ > _Información de software_ y toca _Número de compilación_
+  sucesivamente siete (7) veces para habilitar las opciones de desarrollador.
 
   <img src="res/about_phone.jpg" width=320 height=640 alt="about phone">
 
@@ -83,7 +84,7 @@ Procedimiento ADB usando un PC:
 
 * Escribe `cmd` en la barra de direcciones y presiona Enter. Esto abrirá el símbolo del sistema.
 
-![opening_cmd](res/opening_cmd.png)
+  ![opening_cmd](res/opening_cmd.png)
 
 #### En macOS: Abre la Terminal
 

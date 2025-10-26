@@ -1,6 +1,8 @@
-[English](../../README.md) | [Español](../es/README.md) | [Português](README.md) | [हिन्दी](../hi/README.md)
-| [Bahasa Indonesia](../in/README.md) | [العربية](../ar/README.md)| [ไทย](../th/README.md)
+[English](../../README.md) | [Español](../es/README.md)
+| <u>[Português](README.md)</u> | [Bahasa Indonesia](../in/README.md)
 | [Русский](../ru/README.md) | [中文 (简体)](../zh-rCN/README.md)
+| [日本語](../ja-rJP/README.md) | [Tiếng Việt](../vi/README.md)
+| [हिन्दी](../hi/README.md) | [العربية](../ar/README.md) | [ไทย](../th/README.md)
 
 # Pixels - Alterador Inteligente de Resolução e DPI
 
@@ -80,7 +82,7 @@ Procedimentos ADB usando um PC:
 
 * Escreve `cmd` na barra de endereço e pressiona Enter. Isto abrirá o Prompt de Comando do Windows.
 
-![opening_cmd](res/opening_cmd.png)
+  ![opening_cmd](res/opening_cmd.png)
 
 #### Para macOS: abrir o Terminal
 

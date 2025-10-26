@@ -1,6 +1,8 @@
-[English](../../README.md) | [Español](../es/README.md) | [Português](../pt/README.md) | [हिन्दी](../hi/README.md)
-| [Bahasa Indonesia](../in/README.md) | [العربية](../ar/README.md) | [ไทย](../th/README.md)
-| [Русский](../ru/README.md) | [中文 (简体)](README.md)
+[English](../../README.md) | [Español](../es/README.md)
+| [Português](../pt/README.md) | [Bahasa Indonesia](../in/README.md)
+| [Русский](../ru/README.md) | <u>[中文 (简体)](README.md)</u>
+| [日本語](../ja-rJP/README.md) | [Tiếng Việt](../vi/README.md)
+| [हिन्दी](../hi/README.md) | [العربية](../ar/README.md) | [ไทย](../th/README.md)
 
 # Pixels - 智能分辨率和 DPI 更改器
 
@@ -27,10 +29,8 @@ Pixels 需要 **WRITE_SECURE_SETTINGS** 权限才能工作（这不是 rooting�
 
 <details>
 
-* 进入“设置” > “关于手机” > “软件信息”，然后多次点按“内部版本号”
-  直到启用开发者模式。
-
-  <img src="res/about_phone.jpg" width=320 height=640 alt="关于手机">
+* 转到“_设置_”>“_关于手机_”>“_软件信息_”，然后连续点击“_版本号_”七 (7) 次以启用开发者选项。
+* <img src="res/about_phone.jpg" width=320 height=640 alt="关于手机">
 
 </details>
 

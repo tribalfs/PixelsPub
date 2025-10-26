@@ -1,6 +1,8 @@
-[English](../../README.md) | [Español](../es/README.md) | [Português](../pt/README.md) | [हिन्दी](../hi/README.md)
-| [Bahasa Indonesia](../in/README.md) | [العربية](README.md) | [ไทย](../th/README.md)
+[English](../../README.md) | [Español](../es/README.md)
+| [Português](../pt/README.md) | [Bahasa Indonesia](../in/README.md)
 | [Русский](../ru/README.md) | [中文 (简体)](../zh-rCN/README.md)
+| [日本語](../ja-rJP/README.md) | [Tiếng Việt](../vi/README.md)
+| [हिन्दी](../hi/README.md)  | <u>[العربية](README.md)</u> | [ไทย](../th/README.md)
 
 # Pixels: Resolution+DPI Changer
 
@@ -27,8 +29,8 @@
 
 <details>
 
-* اذهب إلى _الإعدادات_ > _حول الهاتف_ > _معلومات البرنامج_ وانقر على _رقم الإصدار_ عدة مرات
-  حتى يتم تمكين وضع المطور.
+* اذهب إلى _الإعدادات_ > _حول الهاتف_ > _معلومات البرنامج_ وانقر على _رقم الإصدار_ سبع (7) مرات
+  متتالية لتمكين خيارات المطور.
 
   <img src="res/about_phone.jpg" width=320 height=640 alt="حول الهاتف">
 
@@ -77,7 +79,7 @@
 * اكتب `cmd` في شريط العنوان واضغط على Enter. سيؤدي هذا إلى فتح تطبيق موجه أوامر Windows
   .
 
-![opening_cmd](res/opening_cmd.png)
+  ![opening_cmd](res/opening_cmd.png)
 
 #### بالنسبة لنظام التشغيل MacOS: افتح Terminal
 

@@ -1,8 +1,10 @@
-[English](../../README.md) | [Español](../es/README.md) | [Português](../pt/README.md) | [हिन्दी](../hi/README.md)
-| [Bahasa Indonesia](README.md) | [العربية](../ar/README.md)| [ไทย](../th/README.md)
+[English](../../README.md) | [Español](../es/README.md)
+| [Português](../pt/README.md) | <u>[Bahasa Indonesia](README.md)</u>
 | [Русский](../ru/README.md) | [中文 (简体)](../zh-rCN/README.md)
+| [日本語](../ja-rJP/README.md) | [Tiếng Việt](../vi/README.md)
+| [हिन्दी](../hi/README.md) | [العربية](../ar/README.md) | [ไทย](../th/README.md)
 
-# Piksel - Pengubah Resolusi dan DPI Cerdas
+# Pixels - Pengubah Resolusi dan DPI Cerdas
 
 * [Google Play Store](https://play.google.com/store/apps/details?id=com.tribalfs.pixels)
 
@@ -27,8 +29,8 @@ Prosedur ADB menggunakan PC:
 
 <details>
 
-* Buka _Pengaturan_ > _Tentang ponsel_ > _Informasi perangkat lunak_ and ketuk _Nomor versi_
-  beberapa kali sampai mode pengembang diaktifkan.
+* Buka _Pengaturan_ > _Tentang ponsel_ > _Informasi perangkat lunak_ dan ketuk _Nomor versi_ secara
+  berurutan tujuh (7) kali untuk mengaktifkan opsi pengembang.
 
   <img src="res/about_phone.jpg" width=320 height=640 alt="tentang telepon">
 
@@ -41,7 +43,7 @@ Prosedur ADB menggunakan PC:
 * Buka _Pengaturan_ > _Opsi developer_ (bisa _Pengaturan_ > _Sistem_ > _Opsi developer_ di
   versi android yang lebih lama), gulir ke bawah dan temukan opsi _Process debug USB_.
 
-<img src="res/usb_debugging.jpg" width=320 height=640 alt="usb_debugging">
+  <img src="res/usb_debugging.jpg" width=320 height=640 alt="usb_debugging">
 
 #### Catatan untuk beberapa perangkat seperti MIUI:
 
@@ -77,7 +79,7 @@ Prosedur ADB menggunakan PC:
 * Ketik `cmd` di bilah alamat dan tekan enter. Ini akan membuka aplikasi Windows Command Prompt
   .
 
-![opening_cmd](res/opening_cmd.png)
+  ![opening_cmd](res/opening_cmd.png)
 
 #### Untuk MacOS: Buka Terminal
 
