@@ -1,4 +1,4 @@
-[English](../../README.md) | [Español](../es/README.md) | [Português](../pt/README.md) | [हिन्दी](../hi/README.md) | [Bahasa Indonesia](../in/README.md) | [العربية](../ar/README.md) | [ไทย](README.md)
+[English](../../README.md) | [Español](../es/README.md) | [Português](../pt/README.md) | [हिन्दी](../hi/README.md) | [Bahasa Indonesia](../in/README.md) | [العربية](../ar/README.md) | [ไทย](README.md) | [中文 (简体)](../zh-rCN/README.md)
 
 # Pixels - ตัวปรับความละเอียดและ DPI อัจฉริยะ
 

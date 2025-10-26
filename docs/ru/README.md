@@ -1,6 +1,6 @@
 [English](../../README.md) | [Español](../es/README.md) | [Português](../pt/README.md) | [हिन्दी](../hi/README.md)
 | [Bahasa Indonesia](../in/README.md) | [العربية](../ar/README.md) | [ไทย](../th/README.md)
-| [Русский](README.md)
+| [Русский](README.md) | [中文 (简体)](../zh-rCN/README.md)
 
 # Pixels - Умное изменение разрешения и DPI
 

@@ -1,6 +1,6 @@
 [English](../../README.md) | [Español](../es/README.md) | [Português](../pt/README.md) | [हिन्दी](../hi/README.md)
 | [Bahasa Indonesia](README.md) | [العربية](../ar/README.md)| [ไทย](../th/README.md)
-| [Русский](../ru/README.md)
+| [Русский](../ru/README.md) | [中文 (简体)](../zh-rCN/README.md)
 
 # Piksel - Pengubah Resolusi dan DPI Cerdas
 

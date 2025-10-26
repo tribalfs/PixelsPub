@@ -1,6 +1,6 @@
 [English](README.md) | [Español](docs/es/README.md) | [Português](docs/pt/README.md) | [हिन्दी](docs/hi/README.md)
 | [Bahasa Indonesia](docs/in/README.md) | [العربية](docs/ar/README.md) | [ไทย](docs/th/README.md)
-| [Русский](docs/ru/README.md)
+| [Русский](docs/ru/README.md) | [中文 (简体)](docs/zh-rCN/README.md)
 
 # Pixels - Smart Resolution and DPI Changer
 
