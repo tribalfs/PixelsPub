@@ -2,6 +2,7 @@
 | <u>[Português](README.md)</u> | [Bahasa Indonesia](../in/README.md)
 | [Русский](../ru/README.md) | [中文 (简体)](../zh-rCN/README.md)
 | [日本語](../ja-rJP/README.md) | [Tiếng Việt](../vi/README.md)
+| [Türkçe](../tr/README.md)
 | [हिन्दी](../hi/README.md) | [العربية](../ar/README.md) | [ไทย](../th/README.md)
 
 # Pixels - Alterador Inteligente de Resolução e DPI

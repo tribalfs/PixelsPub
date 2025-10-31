@@ -2,6 +2,7 @@
 | [Português](../pt/README.md) | [Bahasa Indonesia](../in/README.md)
 | [Русский](../ru/README.md) | [中文 (简体)](../zh-rCN/README.md)
 | <u>[日本語](README.md)</u> | [Tiếng Việt](../vi/README.md)
+| [Türkçe](../tr/README.md)
 | [हिन्दी](../hi/README.md) | [العربية](../ar/README.md) | [ไทย](../th/README.md)
 
 # Pixels - スマートな解像度とDPIチェンジャー

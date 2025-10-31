@@ -2,6 +2,7 @@
 | [Português](../pt/README.md) | [Bahasa Indonesia](../in/README.md)
 | [Русский](../ru/README.md) | [中文 (简体)](../zh-rCN/README.md)
 | [日本語](../ja-rJP/README.md) | [Tiếng Việt](../vi/README.md)
+| [Türkçe](../tr/README.md)
 | [हिन्दी](../hi/README.md)  | <u>[العربية](README.md)</u> | [ไทย](../th/README.md)
 
 # Pixels: Resolution+DPI Changer

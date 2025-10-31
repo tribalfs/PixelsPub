@@ -2,6 +2,7 @@
 | [Português](../pt/README.md) | [Bahasa Indonesia](../in/README.md)
 | [Русский](../ru/README.md) | [中文 (简体)](../zh-rCN/README.md)
 | [日本語](../ja-rJP/README.md) | [Tiếng Việt](../vi/README.md)
+| [Türkçe](../tr/README.md)
 | [हिन्दी](../hi/README.md) | [العربية](../ar/README.md) | <u>[ไทย](../th/README.md)</u>
 
 # Pixels - ตัวปรับความละเอียดและ DPI อัจฉริยะ
@@ -30,7 +31,7 @@
 <details>
 
 * ไปที่ _การตั้งค่า_ > _เกี่ยวกับโทรศัพท์_ > _ข้อมูลซอฟต์แวร์_ และแตะ _หมายเลขบิลด์_ ติดต่อกันเจ็ด (
-  7) ครั้ง เพื่อเปิดใช้งานตัวเลือกสำหรับนักพัฒนา
+    7) ครั้ง เพื่อเปิดใช้งานตัวเลือกสำหรับนักพัฒนา
 
   <img src="res/about_phone.jpg" width=320 height=640 alt="about phone">
 

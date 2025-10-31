@@ -2,6 +2,7 @@
 | [Português](../pt/README.md) | [Bahasa Indonesia](../in/README.md)
 | <u>[Русский](README.md)</u> | [中文 (简体)](../zh-rCN/README.md)
 | [日本語](../ja-rJP/README.md) | [Tiếng Việt](../vi/README.md)
+| [Türkçe](../tr/README.md)
 | [हिन्दी](../hi/README.md) | [العربية](../ar/README.md) | [ไทย](../th/README.md)
 
 # Pixels - Умное изменение разрешения и DPI
