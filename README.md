@@ -1,4 +1,4 @@
-<u>[English](README.md)</u> | [Español](docs/es/README.md)
+adb shell pm grant com.tribalfs.pixels android.permission.WRITE_SECURE_SETTINGS<u>[English](README.md)</u> | [Español](docs/es/README.md)
 | [Português](docs/pt/README.md) | [Bahasa Indonesia](docs/in/README.md)
 | [Русский](docs/ru/README.md) | [中文 (简体)](docs/zh-rCN/README.md)
 | [日本語](docs/ja-rJP/README.md) | [Tiếng Việt](docs/vi/README.md)
