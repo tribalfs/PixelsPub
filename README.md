@@ -183,17 +183,6 @@ ADB Procedures without using a PC:
 and activate it following the guide it provided. Then go back to _Pixels_ app to grant it permission
 by applying a resolution.
 
-### Option 2: You can install [LADB](https://github.com/tribalfs/LADB/releases)
-
-and follow its setup guide and execute the following command:
-
-`pm grant com.tribalfs.pixels android.permission.WRITE_SECURE_SETTINGS`
-
-Note: This requires connecting to a wifi network. If having a java.lang.SecurityException, check
-notes in step 2 above. Important: LADB sometimes it requires a few try to make it work and it may
-not work on all
-devices.
-
 </details>
 
 
