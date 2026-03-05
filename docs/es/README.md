@@ -1,4 +1,4 @@
-[English](../../README.md) | <u>[Español](README.md)</u>
+com.tribalfs.pixels[English](../../README.md) | <u>[Español](README.md)</u>
 | [Português](../pt/README.md) | [Bahasa Indonesia](../in/README.md)
 | [Русский](../ru/README.md) | [中文 (简体)](../zh-rCN/README.md) | [中文 (繁體)](../zh-rTW/README.md)
 | [日本語](../ja-rJP/README.md) | [Tiếng Việt](../vi/README.md)
